@@ -15,6 +15,7 @@ li {
   display: inline-block;
 }
 
+
 li a {
   display: block;
   padding: 8px;
@@ -37,6 +38,7 @@ li a.active {
 .welc {
   text-align: center;
   color: #503B3B;
+  font-family: "Paytone One";
 }
 
 .intro {
@@ -47,7 +49,7 @@ li a.active {
 .button {
   background-color: #EF9259;
   border: none;
-  color: black;
+  color: #503B3B;
   padding: 16px 32px;
   text-align: center;
   font-size: 16px;
@@ -68,7 +70,7 @@ li a.active {
 
 .button:hover {
   opacity: 1
-color: black;
+color: #503B3B;
 }
 
 .button {border-radius: 10px;}
@@ -86,6 +88,7 @@ color: black;
 
 h4 {
     color: #A68164; 
+  font-family: "Paytone One";
 }
 
 .info1 {
@@ -99,4 +102,62 @@ h4 {
 
 h6 {
   color: #F7F3E7;
+}
+
+
+.wrapper{
+  max-width: 350px;
+  width: 100%;
+  background: #fff;
+  padding: 25px;
+  border-radius: 5px;
+  box-shadow: 4px 4px 2px #F7F3E7; 
+}
+
+.wrapper h2{
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #503B3B;
+}
+
+.wrapper .input_field{
+  margin-bottom: 10px;
+}
+
+.wrapper .input_field input[type="text"],
+.wrapper textarea{
+  border: 1px solid #e0e0e0;
+  width: 100%;
+  padding: 10px;
+}
+
+.wrapper textarea{
+  resize: none;
+  height: 80px;
+}
+
+.wrapper .btn input[type="submit"]{
+  border: 0px;
+  margin-top: 15px;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  background: #EF9259;
+  color: #503B3B;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+#error_message{
+  margin-bottom: 20px;
+  background: #F7F3E7;
+  padding: 0px;
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.5s ease;
 }
