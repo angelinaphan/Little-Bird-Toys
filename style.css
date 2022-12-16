@@ -35,6 +35,10 @@ li a.active {
   color: #A68164;
 }
 
+.nav-link:hover {
+color: #503B3B;
+}
+
 .welc {
   text-align: center;
   color: #503B3B;
@@ -68,9 +72,12 @@ li a.active {
   height: 50px;
 }
 
+.button {
+  color: #A68164;
+}
 .button:hover {
-  opacity: 1
-color: #503B3B;
+  opacity: 1;
+  color: #503B3B;
 }
 
 .button {border-radius: 10px;}
@@ -162,3 +169,4 @@ h6 {
   font-size: 14px;
   transition: all 0.5s ease;
 }
+
